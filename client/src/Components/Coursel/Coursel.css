@@ -1,0 +1,62 @@
+/* Coursel.css */
+#coursel-h1 {
+    padding-top: 80px;
+    font-family: Tahoma;
+    font-weight: bolder;
+    color: #3366ff;
+  }
+  
+  .container {
+    max-width: 100px;
+    margin: 0 auto;
+    border-radius: 10px; /* Add border radius to the container */
+    overflow: hidden; /* Ensure content within the container respects the border radius */
+  }
+  
+  .horizontal-form {
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .horizontal-form-item {
+    margin-right: 10px;
+  }
+  
+  .passengers {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .guest-popover {
+    max-width: 200px;
+    padding: 10px;
+    background-color: #33a511;
+    border: 1px solid #0865c1;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .guest-popover .guest-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .guest-popover .guest-label {
+    flex-grow: 1;
+  }
+  
+  .guest-popover button {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .guest-popover button:hover {
+    color: #007bff;
+  }
